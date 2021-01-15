@@ -49,7 +49,7 @@ const Company = ({
   };
 
   useEffect(() => {
-    getCompanyInfo();
+    if(company && company !== '') getCompanyInfo();
   }, [company]);
 
   const renderGraphic = () => {

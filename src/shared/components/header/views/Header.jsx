@@ -10,7 +10,7 @@ import {
   Container,
   AppbarContainer,
   StockContainer,
-  StockIcon,
+  TrendingUpIcon,
 } from './styles';
 import Button from '../../button';
 import { useWindowDimensions } from '../../../utils';
@@ -32,7 +32,7 @@ export const Header = ({
     <Container>
       <AppbarContainer width={width}>
         <StockContainer width={width}>
-          <StockIcon />
+          <TrendingUpIcon />
           <Title>{title}</Title>
         </StockContainer>
         <SearchContainer width={width}>

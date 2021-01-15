@@ -10,7 +10,8 @@ export const Container = styled.div`
 export const TextInputStyled = styled.input`
   font-size: 18px;
   line-height: 22px;
-  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin: 8px;
   background: ${(props) => props.transparent ? 'transparent' : colors.white};
   color: ${(props) => props.transparent ? 'white' : colors.greyInfo};

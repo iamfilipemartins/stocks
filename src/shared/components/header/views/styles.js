@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { colors } from "../../../colors";
-import { Stock } from '@styled-icons/remix-line/Stock';
+import { TrendingUp } from '@styled-icons/boxicons-regular/TrendingUp';
 
 export const Title = styled.h1`
   font-size: 1.5em;
@@ -38,7 +38,7 @@ export const AppbarContainer = styled.div`
   padding: 16px;
 `;
 
-export const StockIcon = styled(Stock)`
+export const TrendingUpIcon = styled(TrendingUp)`
   width: 2em;
   height: 2em;
   margin-right: 16px;

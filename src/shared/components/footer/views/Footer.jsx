@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from '../../button';
+import { urls } from "../../../conection"; 
 
 import {
   Title,
@@ -6,9 +8,26 @@ import {
 } from './styles';
 
 export const Footer = () => {
+  const handleOnPressGitButton = () => {
+    const url = urls.URL_GIT;
+    window.open(url, '_blank');
+  };
+
+  const handleOnPressLinkedinButton = () => {
+    const url = urls.URL_LINKEDIN;
+    window.open(url, '_blank');
+  };
+
   return (
     <Container>
-      <Title>Feito por: Filipe Martins</Title>
+      <Button 
+        icon="git"
+        onClick={handleOnPressGitButton}
+      />
+      <Button 
+        icon="linkedin"
+        onClick={handleOnPressLinkedinButton}
+      />
     </Container>
   );
 };

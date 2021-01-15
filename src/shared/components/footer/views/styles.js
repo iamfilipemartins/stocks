@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { colors } from "../../../colors";
 
-export const Title = styled.h6`
+export const Title = styled.h1`
   font-size: 1em;
   text-align: center;
   color: ${colors.white};

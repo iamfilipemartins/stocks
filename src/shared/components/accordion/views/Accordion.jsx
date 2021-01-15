@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import {
   Title,
@@ -8,6 +7,7 @@ import {
   AccordionContainer,
   AccordionSummaryContainer,
   AccordionDetailsContainer,
+  ExpandMoreIcon,
 } from './styles';
 
 export const AccordionStyled = ({title, children}) => {

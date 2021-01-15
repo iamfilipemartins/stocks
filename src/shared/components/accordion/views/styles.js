@@ -1,10 +1,17 @@
 import { Accordion, AccordionDetails, AccordionSummary } from "@material-ui/core";
 import styled from "styled-components";
 import { colors } from "../../../colors";
+import { ExpandMore } from '@styled-icons/material/ExpandMore';
 
 export const Container = styled.div`
   flex: 1;
   display: flex;
+`;
+
+export const ExpandMoreIcon = styled(ExpandMore)`
+  width: 1em;
+  height: 1em;
+  color: ${colors.greyInfo};
 `;
 
 export const AccordionContainer = styled(Accordion)`
