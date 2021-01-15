@@ -3,7 +3,6 @@ import Button from '../../button';
 import { urls } from "../../../conection"; 
 
 import {
-  Title,
   Container,
 } from './styles';
 
